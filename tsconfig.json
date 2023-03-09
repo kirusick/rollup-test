@@ -1,0 +1,26 @@
+{
+  "extends": "@tsconfig/create-react-app/tsconfig.json",
+  "include": ["./src/main.ts"],
+  "types": ["node", "react"],
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "declaration": true,
+    "target": "es2015",
+    "outDir": "./dist",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true
+  }
+}
